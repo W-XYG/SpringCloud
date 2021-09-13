@@ -5,10 +5,10 @@ eureka:
 server:
   port: 9898
 zipkin:
-    #base-url: http://127.0.0.1:9411/  #zipkin server的请求地址
-    sender:
-      #type: rabbit
-      type: web
+  #base-url: http://127.0.0.1:9411/  #zipkin server的请求地址
+  sender:
+    #type: rabbit
+    type: web
   rabbitmq:
     host: localhost
     port: 5672
